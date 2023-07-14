@@ -1,7 +1,6 @@
 {
   "name": "top100",
   "version": "0.0.0",
-  "homepage": "https://Gospodar91.github.io/top100/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
