@@ -10,14 +10,14 @@
           "style": "scss"
         }
       },
-      "root": "dist/currency-converter",
+      "root": "root",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/currency-converter",
+            "outputPath": "root",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -87,7 +87,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "repo": "https://Gospodar91.github.io/top100/",
-            "branch": "gh-pages"
+            "branch": "main"
           }
         }
       }
