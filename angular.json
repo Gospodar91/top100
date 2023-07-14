@@ -10,7 +10,7 @@
           "style": "scss"
         }
       },
-      "root": "",
+      "root": "dist/currency-converter",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
